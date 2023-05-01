@@ -14,6 +14,7 @@
 		36D74FC42A00081400EFD9C5 /* emiratesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FC32A00081400EFD9C5 /* emiratesTests.swift */; };
 		36D74FCE2A00081400EFD9C5 /* emiratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FCD2A00081400EFD9C5 /* emiratesUITests.swift */; };
 		36D74FD02A00081400EFD9C5 /* emiratesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FCF2A00081400EFD9C5 /* emiratesUITestsLaunchTests.swift */; };
+		36D74FDE2A0012D900EFD9C5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D74FDD2A0012D900EFD9C5 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		36D74FC92A00081400EFD9C5 /* emiratesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emiratesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D74FCD2A00081400EFD9C5 /* emiratesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emiratesUITests.swift; sourceTree = "<group>"; };
 		36D74FCF2A00081400EFD9C5 /* emiratesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emiratesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36D74FDC2A00126D00EFD9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36D74FDD2A0012D900EFD9C5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,7 @@
 		36D74FB02A00081300EFD9C5 /* emirates */ = {
 			isa = PBXGroup;
 			children = (
+				36D74FDC2A00126D00EFD9C5 /* Info.plist */,
 				36D74FB12A00081300EFD9C5 /* emiratesApp.swift */,
 				36D74FB32A00081300EFD9C5 /* ContentView.swift */,
 				36D74FB52A00081400EFD9C5 /* Assets.xcassets */,
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				36D74FB92A00081400EFD9C5 /* Preview Assets.xcassets */,
+				36D74FDD2A0012D900EFD9C5 /* Launch Screen.storyboard */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D74FDE2A0012D900EFD9C5 /* Launch Screen.storyboard in Resources */,
 				36D74FBA2A00081400EFD9C5 /* Preview Assets.xcassets in Resources */,
 				36D74FB62A00081400EFD9C5 /* Assets.xcassets in Resources */,
 			);
@@ -417,16 +423,20 @@
 				DEVELOPMENT_ASSET_PATHS = "\"emirates/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = emirates/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Emirates Flights";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -453,16 +463,20 @@
 				DEVELOPMENT_ASSET_PATHS = "\"emirates/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = emirates/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Emirates Flights";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

@@ -14,17 +14,11 @@ struct ContentView: View {
                 .bold()
                 .opacity(0.5)
                 .font(.title)
-            Spacer()
+                .padding(.bottom, 12)
             Text("Hello, World!")
                 .bold()
                 .opacity(0.5)
                 .font(.title)
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
