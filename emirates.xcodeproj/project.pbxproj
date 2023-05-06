@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366FF37B2A06A25300F3CC84 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FF37A2A06A25300F3CC84 /* IntroView.swift */; };
+		366FF37F2A06A52400F3CC84 /* IntroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FF37E2A06A52400F3CC84 /* IntroService.swift */; };
+		366FF3822A06AC2700F3CC84 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FF3812A06AC2700F3CC84 /* MainView.swift */; };
+		366FF3862A06B4F800F3CC84 /* LaunchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366FF3852A06B4F800F3CC84 /* LaunchView.storyboard */; };
+		366FF3892A06B89100F3CC84 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FF3882A06B89100F3CC84 /* PageControl.swift */; };
 		36D74FB22A00081300EFD9C5 /* emiratesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FB12A00081300EFD9C5 /* emiratesApp.swift */; };
-		36D74FB42A00081300EFD9C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FB32A00081300EFD9C5 /* ContentView.swift */; };
+		36D74FB42A00081300EFD9C5 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FB32A00081300EFD9C5 /* AppView.swift */; };
 		36D74FB62A00081400EFD9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D74FB52A00081400EFD9C5 /* Assets.xcassets */; };
-		36D74FBA2A00081400EFD9C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D74FB92A00081400EFD9C5 /* Preview Assets.xcassets */; };
 		36D74FC42A00081400EFD9C5 /* emiratesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FC32A00081400EFD9C5 /* emiratesTests.swift */; };
 		36D74FCE2A00081400EFD9C5 /* emiratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FCD2A00081400EFD9C5 /* emiratesUITests.swift */; };
 		36D74FD02A00081400EFD9C5 /* emiratesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74FCF2A00081400EFD9C5 /* emiratesUITestsLaunchTests.swift */; };
-		36D74FDE2A0012D900EFD9C5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D74FDD2A0012D900EFD9C5 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,19 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		366FF37A2A06A25300F3CC84 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		366FF37E2A06A52400F3CC84 /* IntroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroService.swift; sourceTree = "<group>"; };
+		366FF3812A06AC2700F3CC84 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		366FF3852A06B4F800F3CC84 /* LaunchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchView.storyboard; sourceTree = "<group>"; };
+		366FF3882A06B89100F3CC84 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		36D74FAE2A00081300EFD9C5 /* emirates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emirates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D74FB12A00081300EFD9C5 /* emiratesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emiratesApp.swift; sourceTree = "<group>"; };
-		36D74FB32A00081300EFD9C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36D74FB32A00081300EFD9C5 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		36D74FB52A00081400EFD9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D74FB72A00081400EFD9C5 /* emirates.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = emirates.entitlements; sourceTree = "<group>"; };
-		36D74FB92A00081400EFD9C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36D74FBF2A00081400EFD9C5 /* emiratesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emiratesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D74FC32A00081400EFD9C5 /* emiratesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emiratesTests.swift; sourceTree = "<group>"; };
 		36D74FC92A00081400EFD9C5 /* emiratesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emiratesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D74FCD2A00081400EFD9C5 /* emiratesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emiratesUITests.swift; sourceTree = "<group>"; };
 		36D74FCF2A00081400EFD9C5 /* emiratesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emiratesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		36D74FDC2A00126D00EFD9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		36D74FDD2A0012D900EFD9C5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		366FF3762A06A1DE00F3CC84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				366FF3802A06AC1800F3CC84 /* Main */,
+				366FF3792A06A23900F3CC84 /* Intro */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		366FF3772A06A1E400F3CC84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		366FF3782A06A21A00F3CC84 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				366FF3872A06B87D00F3CC84 /* Views */,
+				36D74FB52A00081400EFD9C5 /* Assets.xcassets */,
+				36D74FB32A00081300EFD9C5 /* AppView.swift */,
+				366FF3852A06B4F800F3CC84 /* LaunchView.storyboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		366FF3792A06A23900F3CC84 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				366FF37A2A06A25300F3CC84 /* IntroView.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		366FF37D2A06A33400F3CC84 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				366FF37E2A06A52400F3CC84 /* IntroService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		366FF3802A06AC1800F3CC84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				366FF3812A06AC2700F3CC84 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		366FF3872A06B87D00F3CC84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				366FF3882A06B89100F3CC84 /* PageControl.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		36D74FA52A00081300EFD9C5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,23 +163,15 @@
 		36D74FB02A00081300EFD9C5 /* emirates */ = {
 			isa = PBXGroup;
 			children = (
+				36D74FB72A00081400EFD9C5 /* emirates.entitlements */,
 				36D74FDC2A00126D00EFD9C5 /* Info.plist */,
 				36D74FB12A00081300EFD9C5 /* emiratesApp.swift */,
-				36D74FB32A00081300EFD9C5 /* ContentView.swift */,
-				36D74FB52A00081400EFD9C5 /* Assets.xcassets */,
-				36D74FB72A00081400EFD9C5 /* emirates.entitlements */,
-				36D74FB82A00081400EFD9C5 /* Preview Content */,
+				366FF3782A06A21A00F3CC84 /* Core */,
+				366FF37D2A06A33400F3CC84 /* Data */,
+				366FF3772A06A1E400F3CC84 /* Models */,
+				366FF3762A06A1DE00F3CC84 /* Views */,
 			);
 			path = emirates;
-			sourceTree = "<group>";
-		};
-		36D74FB82A00081400EFD9C5 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				36D74FB92A00081400EFD9C5 /* Preview Assets.xcassets */,
-				36D74FDD2A0012D900EFD9C5 /* Launch Screen.storyboard */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		36D74FC22A00081400EFD9C5 /* emiratesTests */ = {
@@ -238,8 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D74FDE2A0012D900EFD9C5 /* Launch Screen.storyboard in Resources */,
-				36D74FBA2A00081400EFD9C5 /* Preview Assets.xcassets in Resources */,
+				366FF3862A06B4F800F3CC84 /* LaunchView.storyboard in Resources */,
 				36D74FB62A00081400EFD9C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D74FB42A00081300EFD9C5 /* ContentView.swift in Sources */,
+				36D74FB42A00081300EFD9C5 /* AppView.swift in Sources */,
 				36D74FB22A00081300EFD9C5 /* emiratesApp.swift in Sources */,
+				366FF3892A06B89100F3CC84 /* PageControl.swift in Sources */,
+				366FF37F2A06A52400F3CC84 /* IntroService.swift in Sources */,
+				366FF3822A06AC2700F3CC84 /* MainView.swift in Sources */,
+				366FF37B2A06A25300F3CC84 /* IntroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,24 +475,24 @@
 		36D74FD42A00081400EFD9C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = emirates/emirates.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"emirates/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = emirates/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Emirates Flights";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_CFBundleDisplayName = "ToDo news app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchView.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
@@ -442,7 +502,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ludev.emirates;
+				PRODUCT_BUNDLE_IDENTIFIER = "ludev.just-a-mess";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -455,24 +515,24 @@
 		36D74FD52A00081400EFD9C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = emirates/emirates.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"emirates/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = emirates/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Emirates Flights";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_CFBundleDisplayName = "ToDo news app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchView.storyboard;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
@@ -482,7 +542,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ludev.emirates;
+				PRODUCT_BUNDLE_IDENTIFIER = "ludev.just-a-mess";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
